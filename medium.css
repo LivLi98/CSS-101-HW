@@ -1,0 +1,82 @@
+#head-container{
+    display: flex;
+    height: 300px;
+}
+
+
+h1{
+    text-align: center;
+    color: orange;
+    -webkit-text-stroke: 1px blue;
+    font-size: 45px;
+    
+    /* animation: mySlide;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+    animation-timing-function: ease; */
+}
+
+@keyframes mySlide {
+    from {margin-left: 100%;}
+    to{margin-left: 0%;}
+}
+
+#img{
+display: flex;
+}
+
+img{
+    margin-top: 100px;
+    display: block;
+    width: 295px;
+    height: 400px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 7px;}
+    
+
+#pgraph{
+    display: flex;
+}
+
+p{
+    font-family: monospace; 
+    margin-right: 70px;
+    margin-left:70px ;
+    margin-top: 70px;
+    font-size: 30px;
+    background-color: rgb(246, 187, 76);
+}
+
+#socials{
+    display: flex;
+}
+
+.fa-twitter {  
+    background: #55ACEE;  
+    color: white;  
+    padding: 8PX;
+
+}  
+
+.fa-instagram {  
+    background: #125688;  
+    color: white;  
+    padding: 8PX;
+
+  }  
+
+.fa-youtube {  
+    background: #bb0000;  
+    color: white;  
+    padding: 8PX;
+
+  }  
+
+  .fa-snapchat-ghost {  
+    background: #fffc00;  
+    color: white;  
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;  
+    padding: 8PX;
+  }  
